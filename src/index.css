@@ -38,9 +38,27 @@ header a {
   grid-template-columns: 3fr 1fr;
   gap: 100px;
 }
+.home1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 100px; */
+  flex-direction: column;
+}
+.homeButtons {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  gap: 10px
+}
 .homeBlock {
   display:grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 2fr;
+  gap: 100px;
+}
+.homeBlock {
+  display:grid;
+  grid-template-columns: 2fr 2fr;
   gap: 100px;
 }
 .workout-details {
@@ -74,7 +92,9 @@ header a {
 #navbar {
   display: flex;
   justify-content: flex-start;
-  gap: 20px
+}
+.navs {
+margin-left: 20px;
 }
 
 /* new workout form */

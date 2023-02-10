@@ -18,7 +18,7 @@ const WorkoutDetails = ({ workout }) => {
   return (
     <div className="workout-details">
       <h4>{workout.number}</h4>
-      <p><strong>Origin: </strong>{workout.origin}</p>
+      <p><strong>Origins: </strong>{workout.origin}</p>
       <p><strong>Destination: </strong>{workout.destination}</p>
       <p><strong>Operator: </strong>{workout.operator}</p>
       <p><strong>Price in £: </strong>{workout.price}</p>
